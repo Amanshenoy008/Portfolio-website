@@ -100,7 +100,7 @@ body
     color:transparent;
     -webkit-text-stroke: 1px white;
     font-size:120px;
-    background: url('/images/back.png');
+    background: url();
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
@@ -376,6 +376,7 @@ a
   top:130vh;
   left:30vh;
   animation:bluechase 8s infinite;
+  animation-delay:-1s;
 
 }
 
@@ -404,6 +405,7 @@ a
   top:220vh;
   left:30vh;
   animation:yellowchase 4s infinite;
+  animation-delay: -1s;
 
 }
 
